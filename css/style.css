@@ -1,0 +1,45 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.yiasin {
+    position: relative;
+    width: 400px;
+    margin-top: 70px;
+    transition: .8s;
+    border: 5px solid #20044b;
+}
+.yiasin img{
+    width: 100%;
+}
+
+.yiasin:hover .box {
+    display: block;
+    padding: 225px 0 0 0;
+    position: absolute;
+    color: white;
+    background-color: #20044b;
+    width: 100%;
+    min-height: 100%;
+    top: 0px;
+    opacity: 70%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.box{
+    display: none;
+    transition: .8s;
+}
+.box h1{
+    margin: 0 15px;
+    border: 1px solid white;
+    display: none;
+    transition: .8s;
+}
+.box:hover h1{
+    
+    display: block;
+}
+.box p {
+    letter-spacing: 2px;
+    padding-top: 15px;
+}
