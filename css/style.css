@@ -2,10 +2,14 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 .yiasin {
+    background-image: url(../images/Kaykobad_Yiasin.jpg);
     position: relative;
-    width: 400px;
+    width: 100%;
+    min-height: 650px;
     margin-top: 70px;
     transition: .8s;
+    background-size: cover;
+    background-repeat: no-repeat;
     border: 5px solid #20044b;
 }
 .yiasin img{
@@ -29,14 +33,15 @@ body{
     display: none;
     transition: .8s;
 }
-.box h1{
-    margin: 0 15px;
+
+.box h1 {
+    margin: 0 25px;
     border: 1px solid white;
     display: none;
     transition: .8s;
+    margin-top: 100px;
 }
 .box:hover h1{
-    
     display: block;
 }
 .box p {
